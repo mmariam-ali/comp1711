@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 int main () {
-    float var1;
-    float var2;
-    printf("Insert a length: ");
-    printf("Insert a width: ");
+    float height, width, area;
 
-    scanf("%f", &var1);
-    scanf("%f", &var2);
+    printf("enter a height: ");
+    scanf("%f", &height);
+    printf("enter a width:  ");
+    scanf("%f", &width);
 
-    printf("The area of the rectangle is %f ", var1 * var2);
+    area = height * width;
+    printf("The area of the rectangle is: %.f\n ", area);
+
     return 0;
-
-    
 
 }
