@@ -4,14 +4,34 @@ Creating C file:
     - touch file
     - gcc file -o first
     - run /.file
+    
+    - always have #include <stdio.h>
+    - always have int main () { return 0}
+    - always end with ;
+
+printing
+    - print f("")
+    - scanf variable_name (gets variables)
+    - arguments passed in on same line after typing ./filename
 
 Dealing with errors
     - fix the first and the rest should disappear
+    - terminal will tell you what the error is
 
 variables
     - %(a character) 
     - , var
     - print("%d" , var)
+    - can create multiple vars on one line 
+        e.g float int1, int2, int3;
+    - can be assigned or unassigned
+        e.g int a = 0;
+        e.g int a (will be used later in loop, or can be assigned in loop)
+    - temp variables
+        is temp given the value of a variable
+        can be used to swap variables around
+    
+        
 
 comments
     - //for single line comments

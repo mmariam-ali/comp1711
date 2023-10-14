@@ -1,0 +1,47 @@
+bash scripts
+    making a bash script
+        - #!/bin/bash (this is a bash script)
+        - chmod +x ./filename (add exectution permissions)
+        - ./script.sh (running the file)
+
+bash concepts
+    to stop script
+        - press ctrl + c
+
+    getting files into git 
+
+    zipping and unzipping files
+        -drag file into git 
+        -
+
+    reading/ combining files 
+        - use cat command
+        - print a file or store file in new file with  >
+        
+    searching
+        - using grep (term finder)
+        - head (prints first n lines from file (10 by default))
+        - tail (prints last n lines from file (10 by default))
+        - cut (splits line from the deliminator and prints specidied field)
+
+    sorting
+        - sort ( prints everything from file alphabetically)
+        
+    outputting to files
+        - > 
+
+    combining instructions
+        - command | command 2 (does command 2 on the result of command1)
+
+
+    variables
+        - name="mariam" (no space)
+        - to display, use $name
+
+    user input
+        - echo followed by a read statment declaring name of variable
+
+    loops
+        - counted loops for ((ints)) do () done
+
+
