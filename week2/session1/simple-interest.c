@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//write a program to calculate simple interest given the principal, rate and time
 int main (){
     float principal, rate, time, simple_interest;
 printf("Enter the principal value: ");
