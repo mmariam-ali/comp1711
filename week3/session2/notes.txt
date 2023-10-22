@@ -1,0 +1,7 @@
+C BOOTCAMP WEEK 1 SESSION 2
+
+functions
+    - declare a function and then your int main after it
+    - call your function and pass a value into it (optional)
+    - be consistent with data types
+    

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Write a program to calculate the factorial of an integer.
 int main() {
      int i, factorial=1, num;
      printf("Enter an integer: ");

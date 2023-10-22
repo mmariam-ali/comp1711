@@ -1,6 +1,7 @@
 #include <stdio.h>
 //  #define _USE_MATH_DEFINES // for C
 //  #include <math.h>
+// Calculate Area of a Circle
 
 float circleArea(float radius) {
 float pi = 3.14159265359, area;

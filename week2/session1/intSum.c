@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Write a program to take two integers as input, add them, and then display the sum.
 
 int main () {
     float num1, num2, sum;

@@ -1,4 +1,4 @@
-C BOOTCAMP 2
+C BOOTCAMP 1 SESSION 2
 
 for loops
     - int i; #loop control variable

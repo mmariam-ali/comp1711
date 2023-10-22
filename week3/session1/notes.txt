@@ -1,0 +1,9 @@
+C BOOTCAMP WEEK 1 SESSION 1
+
+if else statements
+
+- for loop
+ 
+- while loop
+
+- switch case options

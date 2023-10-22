@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//calculate volume of a sphere
 float volumeSphere (float radius) {
 float pi = 3.14159265359, volume, fraction = 1.33333333333;
 volume = fraction * pi * (radius * radius * radius);
