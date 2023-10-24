@@ -1,0 +1,11 @@
+C BOOTCAMP 4 SESSION1
+
+creating files 
+
+writing to files (w / w+)
+    - w writes the line
+    - a creates mltipl lines
+
+reading from files (r / r+)
+    - reading from a file before it has been created then error
+
