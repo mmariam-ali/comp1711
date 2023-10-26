@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main () {
-    char filename [] = "./data.txt"; //constant character array
+    char filename [] = "./create_file.txt"; //constant character array
     FILE *file = fopen(filename, "w");  //params = pathname and mode
     if (file == NULL) {
         perror("File I/O");

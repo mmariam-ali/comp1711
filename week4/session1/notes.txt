@@ -1,11 +1,26 @@
 C BOOTCAMP 4 SESSION1
 
 creating files 
+    1) char filename[] = "filename.txt"
+    2) FILE *file =fopen(filname, "w");
+    
 
 writing to files (w / w+)
     - w writes the line
-    - a creates mltipl lines
+    - a+ creates multiple lines
+    - open file in read mode
+    1) fprintf(filename, "the text");
+    2) fclose(file);
 
 reading from files (r / r+)
     - reading from a file before it has been created then error
+    - takes a little bit more work 
+
+    1) create a string that is big enough to store the contents of the file
+    2) use the fgets() function to read the content of filename.txt
+    3) fgets(buffer, buffer_size, file) takes 3 parameters
+        - the first is where to store the file content, which will be in the buffer we created
+        - the second is the maximum size of data to read ,which will be the size of buffer
+        - the third is a file pointer used to require the file
+    4) print("%s", buffer);
 
