@@ -17,10 +17,10 @@ int str_len(char string) {
     //length = ;
     //return length;
     
-}
+
 
 int main () {
-    char string;[100]
+    char string[100];
     printf("Enter a string: \n");
     scanf("%s", &string);
     printf("The length of the string is %d\n", strlen(string));
