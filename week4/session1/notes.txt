@@ -8,7 +8,7 @@ creating files
 writing to files (w / w+)
     - w writes the line
     - a+ creates multiple lines
-    - open file in read mode
+    - open file in w mode
     1) fprintf(filename, "the text");
     2) fclose(file);
 
