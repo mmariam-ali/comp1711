@@ -16,6 +16,7 @@ int main()
     // this removes any spaces or newlines.
     fgets(line, buffer_size, stdin);
     sscanf(line, " %s ", filename);
+    printf("%s", filename);
 
     char choice;
     int counter = 0;

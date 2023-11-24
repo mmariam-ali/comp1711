@@ -81,19 +81,19 @@ int read_file(FILE *inputFile, reading *dataArray)
     {
         //open_file(char *filename, char *mode);
 
-    char buffer[buffer_size];
-    reading dataArray[200];
-    char date[20];
-    char bloodIron;
-    int i=0;
+    // char buffer[buffer_size];
+    // reading dataArray[200];
+    // char date[20];
+    // char bloodIron;
+    // int i=0;
 
-    while (fgets(buffer, buffer_size, inputFile) != NULL) {
+    // while (fgets(buffer, buffer_size, inputFile) != NULL) {
 
-        tokeniseRecord(buffer, ",", date, bloodIron);
-        strcpy(dataArray[i].date, date);
-        strcpy(dataArray[i].bloodIron, bloodIron);
-        i++;
-    }
+    //     tokeniseRecord(buffer, ",", date, bloodIron);
+    //     strcpy(dataArray[i].date, date);
+    //     strcpy(dataArray[i].bloodIron, bloodIron);
+    //     i++;
+    // }
 }
 
 
